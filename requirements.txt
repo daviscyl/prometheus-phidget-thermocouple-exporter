@@ -1,0 +1,2 @@
+Phidget22==1.10.20220211
+prometheus-client==0.13.1
