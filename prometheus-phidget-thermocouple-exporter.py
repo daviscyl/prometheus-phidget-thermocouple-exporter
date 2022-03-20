@@ -83,7 +83,7 @@ if __name__ == '__main__':
         temperatureSensor3.openWaitForAttachment(5000)
 
         # Start up the server to expose the metrics.
-        start_http_server(8000)
+        start_http_server(9981)
         threading.Event().wait()
 
     except PhidgetException as ex:

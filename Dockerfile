@@ -18,3 +18,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # copy over the main script and run it
 COPY prometheus-phidget-thermocouple-exporter.py ./
 CMD [ "python3", "./prometheus-phidget-thermocouple-exporter.py" ]
+
+EXPOSE 9981
